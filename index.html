@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./src/css/main.css">
+    
+    <title>Projeto 1 - JS</title>
+</head>
+<body>
+    <div class="app">
+       <div class="container">
+        <div class="searchUser">
+            <h1>Buscar repositórios no github</h1>
+
+            <input type="text" name="username" class="username" placeholder="Digite seu Usuário do GitHub">
+            <button class="btnSearch">Buscar</button>
+        </div>
+        <div class="listResult">
+            <h3>
+                Repositórios 
+                <small id="userNameRepos"></small>
+                <small class="countRepos" >0</small> 
+            </h3>
+            <ul class="listContainer">
+                
+            </ul>
+        </div>
+       </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./src/js/main.js"></script>
+</body>
+</html>
